@@ -41,6 +41,7 @@ import {
   NotificationPageIndex,
   NotificationDetail,
 } from './views/notifications';
+import { Banner } from "./components/banner";
 
 /*TODO(tdk): if QueryParamProvider is not needed elsewhere,
  *  create special sub-router for Projects page and wrap it only around that */
@@ -109,6 +110,7 @@ function App() {
           </Router>
         </QueryParamProvider>
       </div>
+      <Banner />
       <Router primary={false}>
         <Footer path="/*" />
       </Router>
