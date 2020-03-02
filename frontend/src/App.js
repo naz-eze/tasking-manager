@@ -6,7 +6,7 @@ import { useMeta } from 'react-meta-elements';
 import './assets/styles/index.scss';
 import { Header } from './components/header';
 import { Footer } from './components/footer';
-import { ORG_NAME } from './config';
+import { ORG_NAME, MATOMO_ID } from './config';
 import { Home } from './views/home';
 import { AboutPage } from './views/about';
 import { LearnPage } from './views/learn';
@@ -41,7 +41,7 @@ import {
   NotificationPageIndex,
   NotificationDetail,
 } from './views/notifications';
-import { Banner } from "./components/banner";
+import { Banner } from './components/banner/index';
 
 /*TODO(tdk): if QueryParamProvider is not needed elsewhere,
  *  create special sub-router for Projects page and wrap it only around that */
@@ -110,7 +110,7 @@ function App() {
           </Router>
         </QueryParamProvider>
       </div>
-      <Banner />
+      {MATOMO_ID && <Banner />}
       <Router primary={false}>
         <Footer path="/*" />
       </Router>

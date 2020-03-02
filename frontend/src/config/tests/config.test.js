@@ -34,6 +34,9 @@ it('exports ORG_YOUTUBE', () => {
 it('exports ORG_GITHUB', () => {
   expect(typeof config.ORG_GITHUB).toBe('string');
 });
+it('exports MATOMO_ID', () => {
+  expect(typeof config.MATOMO_ID).toBe('string');
+});
 it('exports DEFAULT locale to be english', () => {
   expect(config.DEFAULT_LOCALE).toBe('en');
 });
