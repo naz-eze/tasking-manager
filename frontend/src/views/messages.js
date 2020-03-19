@@ -157,6 +157,114 @@ export default defineMessages({
     id: 'pages.learn.title',
     defaultMessage: 'Learn',
   },
+  learnMapTitle: {
+    id: 'pages.learn.map.title',
+    defaultMessage: 'Learn to map',
+  },
+  learnMapIntro: {
+    id: 'pages.learn.map.intro',
+    defaultMessage:
+      'Mapping in OpenStreetMap is a team effort, continually growing due to a community of hundreds of thousands of dedicated global contributors. Everybody can participate in this open map of the world, and it needs responsible people, who are open to learn and show love for the details.',
+  },
+  learnMapDescription: {
+    id: 'pages.learn.map.description',
+    defaultMessage:
+      'You can start your journey now. You do not have to ask permission before adding or modifying existing data. If you believe that you can improve something, then do it. But always remember, with great power comes great responsibility.',
+  },
+  learnTutorialsTitle: {
+    id: 'pages.learn.tutorials.title',
+    defaultMessage: 'tutorials & guides',
+  },
+  learnOSMTutorialTitle: {
+    id: 'pages.learn.tutorials.learnosm.title',
+    defaultMessage: 'Administration Guide',
+  },
+  learnOSMTutorialDescription: {
+    id: 'pages.learn.tutorials.learnosm.description',
+    defaultMessage: 'Manual on how to create and manage projects in the Tasking Manager',
+  },
+  learnMapStepSelectProjectTitle: {
+    id: 'pages.learn.map.steps.project.title',
+    defaultMessage: 'Select a project',
+  },
+  learnMapStepSelectProjectDescription: {
+    id: 'pages.learn.map.steps.project.description',
+    defaultMessage:
+      'Search through our list of projects for one that meets your interests and fits your skill level.',
+  },
+  learnMapStepSelectTaskTitle: {
+    id: 'pages.learn.map.steps.task.title',
+    defaultMessage: 'Select a task',
+  },
+  learnMapStepSelectTaskDescription: {
+    id: 'pages.learn.map.steps.task.description',
+    defaultMessage:
+      'Projects are divided into a set of tasks manageable in size and adapted to your skill level',
+  },
+  learnMapStepMapOSMTitle: {
+    id: 'pages.learn.map.steps.map.title',
+    defaultMessage: 'Map through OpenStreetMap',
+  },
+  learnMapStepMapOSMDescription: {
+    id: 'pages.learn.map.steps.map.description',
+    defaultMessage:
+      'If you are new to mapping we recommend checking the manuals below before you start mapping.',
+  },
+  learnValidateTitle: {
+    id: 'pages.learn.validate_title',
+    defaultMessage: 'Learn to validate',
+  },
+  learnValidateIntro: {
+    id: 'pages.learn.validate.intro',
+    defaultMessage:
+      'Validation is an important part of the process. It requires confidence in your mapping abilities as well as the willingness to help coach and advise newer mappers.',
+  },
+  learnValidateDescription: {
+    id: 'pages.learn.validate.description',
+    defaultMessage:
+      'Getting a second, third, or fourth pair of eyes on mapped features is an important step for ensuring the quality of the data being added to OpenStreetMap and then used around the world.',
+  },
+  learnManageTitle: {
+    id: 'pages.learn.manage_title',
+    defaultMessage: 'Learn to manage',
+  },
+  learnManageIntro: {
+    id: 'pages.learn.manage.intro',
+    defaultMessage:
+      'Being able to organize mapping efforts is a huge opportunity for fast and coordinated data collection. In order to be successful you must be able to motivate a community of mappers.',
+  },
+  learnManageDescription: {
+    id: 'pages.learn.manage.description',
+    defaultMessage:
+      'You can use the Tasking Manager to set up your own projects. Be sure to be responsible by making sure your skill level matches your ambition. It is good to reach out to the administrators of the Tasking Manager and learn more about what is needed to obtain the permissions to create and manage projects.',
+  },
+  learnManageStepJoinTitle: {
+    id: 'pages.learn.manage.steps.join.title',
+    defaultMessage: 'Become part of a community or organization',
+  },
+  learnManageStepJoinDescription: {
+    id: 'pages.learn.manage.steps.join.description',
+    defaultMessage:
+      'The Tasking Manager allows you to create projects as part of a community or organization. Either get in touch with one you know, or request the admins to add your group to the Tasking Manager.',
+  },
+  learnManageStepCreateTitle: {
+    id: 'pages.learn.manage.steps.create.title',
+    defaultMessage: 'Create a project and be loud about it',
+  },
+  learnManageStepCreateDescription: {
+    id: 'pages.learn.manage.steps.create.description',
+    defaultMessage:
+      'Get people on board to map for your project. We suggest monitoring the mapping on your projects. Make sure to get them properly mapped and completed.',
+  },
+  learnManageStepDataTitle: {
+    id: 'pages.learn.manage.steps.data.title',
+    defaultMessage: 'Use the data',
+  },
+  learnManageStepDataDescription: {
+    id: 'pages.learn.manage.steps.data.description',
+    defaultMessage:
+      'Download the data and use it for your initial purpose. The HOT Export Tool and the Overpass API are excellent to pick the information you need.',
+  },
   contactUs: {
     id: 'pages.concact.title',
     defaultMessage: 'Contact Us',
@@ -176,14 +284,6 @@ export default defineMessages({
   contactUsThanksProceed: {
     id: 'home.contact.thanksProceed',
     defaultMessage: 'Proceed',
-  },
-  howToValidate: {
-    id: 'pages.learn.sections.howToValidate',
-    defaultMessage: 'How to validate',
-  },
-  howToMap: {
-    id: 'pages.learn.sections.howToMap',
-    defaultMessage: 'How to map',
   },
   tmDescription: {
     id: 'pages.about.description',
