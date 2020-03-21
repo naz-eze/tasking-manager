@@ -168,7 +168,7 @@ class Project(db.Model):
         db.ForeignKey("organisations.id", name="fk_organisations"),
         index=True,
     )
-    organisation_tag = db.Column(db.String, index=True)
+    # organisation_tag = db.Column(db.String, index=True)
 
     # Tags
     mapping_types = db.Column(ARRAY(db.Integer), index=True)
